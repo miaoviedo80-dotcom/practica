@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let edad = parseInt(prompt("Ingresá tu edad:"));
+
+if (edad >= 18) {
+  document.write("Tenés " + edad + " años. Podés conducir el auto.");
+} else if (edad >= 16) {
+  document.write("Tenés " + edad + " años. Podés votar pero no conducir el auto.");
+} else if (edad >= 0) { 
+    document.write("Tenés " + edad + " años. No podés votar ni conducir el auto.");
+} else {
+    document.write("Error: la edad no puede ser negativa.");   
+}
+    </script>
+</body>
+</html>
